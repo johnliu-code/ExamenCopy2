@@ -1,0 +1,16 @@
+D:\CODE\Evaluation01\Evaluation01\bin\Debug\net5.0\Evaluation01.exe
+D:\CODE\Evaluation01\Evaluation01\bin\Debug\net5.0\Evaluation01.deps.json
+D:\CODE\Evaluation01\Evaluation01\bin\Debug\net5.0\Evaluation01.runtimeconfig.json
+D:\CODE\Evaluation01\Evaluation01\bin\Debug\net5.0\Evaluation01.runtimeconfig.dev.json
+D:\CODE\Evaluation01\Evaluation01\bin\Debug\net5.0\Evaluation01.dll
+D:\CODE\Evaluation01\Evaluation01\bin\Debug\net5.0\Evaluation01.pdb
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\Evaluation01.csproj.AssemblyReference.cache
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\Evaluation01.GeneratedMSBuildEditorConfig.editorconfig
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\Evaluation01.AssemblyInfoInputs.cache
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\Evaluation01.AssemblyInfo.cs
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\Evaluation01.csproj.CoreCompileInputs.cache
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\Evaluation01.dll
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\refint\Evaluation01.dll
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\Evaluation01.pdb
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\Evaluation01.genruntimeconfig.cache
+D:\CODE\Evaluation01\Evaluation01\obj\Debug\net5.0\ref\Evaluation01.dll
