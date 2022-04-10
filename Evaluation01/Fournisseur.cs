@@ -19,7 +19,7 @@ namespace Evaluation01
 		private string codePostal;
 		private string pays;
 		private string telephone;
-		private string pageWeb;
+		//private string pageWeb;
 		public Fournisseur() { }
 		public Fournisseur(
 			int fournisseurId,
@@ -31,8 +31,8 @@ namespace Evaluation01
 			string province,
 			string codePostal,
 			string pays,
-			string telephone,
-		    string pageWeb
+			string telephone
+		    // string pageWeb
 			)
 		{
 			this.fournisseurId = fournisseurId;
@@ -45,10 +45,10 @@ namespace Evaluation01
 			this.codePostal = codePostal;
 			this.pays = pays;
 			this.telephone = telephone;
-			this.pageWeb = pageWeb;
+			// this.pageWeb = pageWeb;
 		}
 
-		public int FournisseurId { set; get; }
+		public int FournisseurId { get; }
 		public string NomCompagnie { set; get; }
 		public string NomContact { set; get; } 
 		public string TitreContact { set; get; } 
@@ -58,22 +58,22 @@ namespace Evaluation01
 		public string CodePostal { set; get; } 
 		public string Pays { set; get; } 
 		public string Telephone { set; get; } 
-		public string PageWeb { set; get; }
+		// public string PageWeb { set; get; }
 
 		public void Print()
 		{
 			WriteLine("{0},  {1},  {2},   {3},   {4},   {5},   {6},   {7},   {8},   {9}",
-				 FournisseurId, 
-				 NomCompagnie,
-				 NomContact, 
-				 TitreContact, 
-				 Adresse,  
-				 Ville, 
-				 Province, 
-				 CodePostal, 
-				 Pays, 
-				 Telephone, 
-				 PageWeb
+				 fournisseurId, 
+				 nomCompagnie,
+				 nomContact, 
+				 titreContact, 
+				 adresse,  
+				 ville, 
+				 province, 
+				 codePostal, 
+				 pays, 
+				 telephone
+				 // pageWeb
 				);
 		}
 	}

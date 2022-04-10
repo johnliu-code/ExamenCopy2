@@ -26,7 +26,6 @@ namespace Evaluation01
 
         public Commande() { }
         public Commande(
-            Client client,
             int commandeId,
             string clientId,
             int employeId,
@@ -39,7 +38,6 @@ namespace Evaluation01
             string codePostalEnvoi,
             string paysEnvoi)
         {
-            this.client = client;
             this.commandeId = commandeId;
             this.clientId = clientId;
             this.employeId = employeId;
@@ -78,17 +76,17 @@ namespace Evaluation01
         public void Print()
         {
             WriteLine("{0}   {1}    {2}    {3}    {4}    {5}    {6}    {7}    {8}    {9}    {10}",
-                 CommandeId,
-                 ClientId,
-                 EmployeId,
-                 DateCommande,
-                 DateRequise,
-                 DateEnvoi,
-                 NomEnvoi,
-                 AdresseEnvoi,
-                 VilleEnvoi,
-                 CodePostalEnvoi,
-                 PaysEnvoi
+                 commandeId,
+                 clientId,
+                 employeId,
+                 dateCommande,
+                 dateRequise,
+                 dateEnvoi,
+                 nomEnvoi,
+                 adresseEnvoi,
+                 villeEnvoi,
+                 codePostalEnvoi,
+                 paysEnvoi
                 );
         }
     }
